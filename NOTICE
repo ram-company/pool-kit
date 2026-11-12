@@ -1,0 +1,33 @@
+PoolKit third-party notices
+
+PoolKit includes data from GeoNames (https://www.geonames.org): the
+cities15000 table, trimmed to each city's id, name, country code, latitude and
+longitude. GeoNames data is
+licensed under the Creative Commons Attribution 4.0 License
+(https://creativecommons.org/licenses/by/4.0/).
+
+PoolKit includes a prebuilt SentencePiece library from swift-sentencepiece, licensed under the MIT License.
+
+PoolKit's interest taxonomy maps its topics to ids from
+the IAB Tech Lab Audience Taxonomy 1.1 (https://iabtechlab.com/standards/audience-taxonomy/),
+licensed under the Creative Commons Attribution 3.0 License
+(https://creativecommons.org/licenses/by/3.0/). The topic names, groupings and
+labels are Pool's own.
+
+PoolKit is built with these open source packages, compiled into the framework:
+GRDB.swift (MIT, Gwendal Roué), sqlite-data, swift-structured-queries,
+swift-dependencies, swift-sharing, swift-perception, swift-identified-collections,
+swift-custom-dump, swift-issue-reporting, swift-concurrency-extras,
+swift-clocks and combine-schedulers (MIT, Point-Free, Inc.), and
+swift-async-algorithms and swift-collections (Apache License 2.0, Apple Inc.).
+The MIT License: https://opensource.org/license/mit. The Apache License 2.0:
+https://www.apache.org/licenses/LICENSE-2.0.
+
+PoolKit includes the SigLIP 2 text tokenizer (Google, ViT-B-16-SigLIP2), licensed
+under the Apache License 2.0. The SigLIP 2 model weights are not included; they
+are downloaded at run time from Pool's service.
+
+The downloadable face-attributes model (apparent age range and apparent gender)
+was trained on FairFace (Kärkkäinen and Joo, https://github.com/joojs/fairface),
+licensed under the Creative Commons Attribution 4.0 License. It is downloaded
+at run time, not included in the framework.
