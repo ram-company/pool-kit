@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PoolKit",
-            url: "https://github.com/ram-company/pool-kit/releases/download/0.2.0/PoolKit.xcframework.zip",
-            checksum: "9ebb4e3d1eaee0054313c66b6ba7c47478378d8f8688ba62cf5981eb8de1975a"
+            url: "https://github.com/ram-company/pool-kit/releases/download/0.3.0/PoolKit.xcframework.zip",
+            checksum: "aec9eab3a96870f5ebd962a78f0dee7901145de5e12cf2f2803e61e402b59f2c"
         ),
     ]
 )

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PoolKit'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'On-device understanding of a photo library, with grants the person controls.'
   s.description      = <<~DESC
     PoolKit reads the photos and screenshots a person allows, on the device, and answers

@@ -19,7 +19,7 @@ In Xcode choose File, Add Package Dependencies, and add this package. In a
 `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/ram-company/pool-kit", from: "0.2.0")
+.package(url: "https://github.com/ram-company/pool-kit", from: "0.3.0")
 ```
 
 Add the photo library usage description to your `Info.plist`:
@@ -520,7 +520,7 @@ let result = try await pool.context.query("nike", using: grant)
 ## CocoaPods
 
 ```ruby
-pod 'PoolKit', '~> 0.2.0'
+pod 'PoolKit', '~> 0.3.0'
 ```
 
 ## React Native and Expo
@@ -536,7 +536,7 @@ See https://docs.pool.day for setup.
 
 ## Preview
 
-0.2.0 is a preview. Until Pool's production launch the hosted service runs on
+0.3.0 is a preview. Until Pool's production launch the hosted service runs on
 staging: open the client with `environment: .staging` and a staging key from
 https://pool.day/developers. Everything on the device works without the service.
 
